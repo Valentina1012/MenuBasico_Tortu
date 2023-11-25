@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --colorPrincipal: #65de8b;  
+    --color2: #f0ac99; 
+    --color3: #512c1c;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    min-height: 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background: var(--colorPrincipal);
+}
+
+a {
+    color: #000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    height: 48px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+nav a {
+    padding: 0 30px;
+}
+
+nav a:hover {
+    color: var(--color3);
+}
+
+.nomb-empresa {
+    position: relative;
+}
+
+.nomb1 {
+    color: var(--color2);
+    opacity: 70%;
+}
+
+.nomb2 {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+
+@media (max-width: 700px){
+
+    header {
+        padding-top: 15px;
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+}
