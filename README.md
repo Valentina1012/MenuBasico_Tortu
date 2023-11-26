@@ -1,4 +1,4 @@
-# MenuBasico_Tortu
+# Menu básico
 <p>Menú básico hecho con HTML y CSS (responsive).</p> 
 <p>Práctica hecha con el canal de youtube Codigo 369</p>
 
